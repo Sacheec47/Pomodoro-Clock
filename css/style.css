@@ -1,0 +1,208 @@
+#heading{
+  position:relative;
+  top: 5px;
+  text-align: center;
+  color:#1CB200; 
+  font-weight: bold;
+  margin-bottom: 430px;
+}
+#footer{
+  font-size: 14px;
+  text-align: center;
+  color:#1CB200; 
+  font-weight: bold;
+}
+/* Glowing Set button. */
+.buttonGlow{  
+  position: absolute;
+  left: 113px;
+  top: 245px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 8px #1CB200;
+  text-shadow:0 0 1px #fff;
+  color:#1CB200; 
+  background: transparent;
+  border-radius: 5px;
+  width: 70px;
+  height: 25px;
+  font-weight: bold;
+  animation: glow 2s linear infinite;
+}
+/* Span for Break and Session indicator. */
+#spanType{
+  font-size: 30px;  
+}
+/* Labels to identify each containers. */
+#labelDivS{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 355px;
+  top: 145px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: #FFDD1B;
+  text-shadow:0 0 1px #fff, 0 0 2px #fff, 0 0 8px #FFDD1B,0 0 10px #FFDD1B;
+}
+#labelDivB{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 320px;
+  top: 180px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: #ff00de;
+  text-shadow:0 0 1px #fff, 0 0 2px #fff, 0 0 8px #ff00de,0 0 10px #ff00de;
+}
+/* Setting background color. */
+body{
+  background:black;
+  }
+/* Count down division. */
+.clockFont{
+    font-family: Stardos Stencil;
+    font-size: 50px;
+    letter-spacing: 10px;    
+  }
+#filler{
+  position:absolute;
+  top: 260px;
+  left: 42%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #145499,0 0 2px 6px #145499,0 0 15px 6px #145499;
+  border: 4px solid black;
+  background-image:url("https://raw.githubusercontent.com/Sacheec47/ALORA-Weather-App/master/heaven1.jpg");
+  background-repeat: repeat-x;
+  background-position: 0 0px;  
+}
+.counterDiv{
+  position:relative;
+  top: 25%;
+  text-align: center;
+  color: #2d499d;
+  text-shadow:0 0 2px #fff, 0 0 8px #a0b4f0,0 0 15px #228DFF, 0 0 25px #228DFF;  
+}
+/* Set session division. */
+.clockFont2{
+    font-family: Stardos Stencil;
+    font-size: 30px;
+    letter-spacing: 10px;    
+  }
+#session{
+  position:absolute;
+  top: -35px;
+  left: 277px;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #b29a12,0 0 2px 6px #b29a12,0 0 15px 6px #b29a12;
+  border: 4px solid black;
+  border-left: 2px solid #b29a12;
+  border-right: 2px solid #b29a12;  
+}
+.spinSession{  
+  animation: spin 10s linear infinite;
+  animation-play-state: paused;
+}
+.sessionDiv{
+  position:absolute;
+  top: -8px;
+  left: 304px;
+  color: #FFDD1B;
+  text-align: center;
+  text-shadow:0 0 1px #fff, 0 0 2px #fff, 0 0 8px #FFDD1B,0 0 10px #FFDD1B;
+}
+
+/* Set break division. */
+.clockFont3{
+  font-family: Stardos Stencil;
+  font-size: 25px;
+  letter-spacing: 10px;    
+  }
+#break{
+  position:absolute;
+  top: 243px;
+  left: 269px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #b2009b,0 0 2px 6px #b2009b,0 0 15px 6px #b2009b;
+  border: 6px solid black; 
+  border-left: 2px solid #b2009b;
+  border-right: 2px solid #b2009b;  
+}
+.spinBreak{  
+  animation: spin 10s linear infinite;
+  animation-play-state: paused;
+}
+.breakDiv{
+  position:absolute;
+  top: 259px;
+  left: 287px;
+  text-align: center;
+  color: #ff00de;
+  text-shadow:0 0 1px #fff, 0 0 2px #fff, 0 0 8px #ff00de,0 0 10px #ff00de;  
+}
+#upArr1{
+  position:absolute;
+  top: -20px;
+  left: 310px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px outset #ffe75f;  
+}
+#downArr1{
+  position:absolute;
+  top: 40px;
+  left: 310px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 10px inset #ffe75f;  
+}
+#upArr2{
+  position:absolute;
+  top: 250px;
+  left: 291px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px outset #ff4ce7;  
+}
+#downArr2{
+  position:absolute;
+  top: 300px;
+  left: 291px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 10px inset #ff4ce7;   
+}
+#upArr1:hover,#upArr2:hover,#downArr1:hover,#downArr2:hover{
+  cursor: pointer;
+}
+
+/* Aminations */
+@keyframes animate{
+  0%{background-position: 0px 330px;} 
+  100%{background-position: 0 0px;} 
+  }
+@keyframes spin{
+  0%{transform : rotate(0deg);}
+  100%{transform : rotate(360deg);}
+}
+@keyframes glow{
+  0% {}
+  50% { box-shadow: 0 0 8px #1CB200,0 0 10px #fff;}
+  100% {}
+}
+

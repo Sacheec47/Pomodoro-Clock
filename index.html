@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Stardos Stencil" />
+  </head>
+  
+  <body>  
+<!--Audio file. -->
+    <audio id = 'myAudio' src = 'http://soundbible.com/grab.php?id=1630&type=mp3' type="audio/mpeg"></audio>
+    <div>
+      <h2 id = 'heading'>Pomodoro Clock </h2>
+      <h2 id = 'footer'>Designed & Coded by Sachithra.</h2>    
+<!--Division for count down. -->
+    <div id = 'filler' class = 'filler'>
+    <div class = 'counterDiv'>
+      <h4 class = 'clockFont'> <span  id = 'spanT'>SET TIMER</span><br><span  id = 'spanType'></span> </h4> 
+    </div>
+<!--Division for play button -->
+    <div id = 'play'>
+      <input type="button" id="reset" value="Set" class = 'buttonGlow'>
+    </div>
+<!--Division for Labels.   -->
+    <div id = 'labelDivS'>
+      <h4 id = 'labelS'>Session</h4>
+    </div>
+      <div id = 'labelDivB'>
+      <h4 id = 'labelB'>Break</h4>
+    </div>  
+<!--Division for session time. -->
+    <div id = 'session' class = 'spinSession'></div>   
+    <div class = 'sessionDiv'>
+      <h4 id = 'spanS' class = 'clockFont2'> 25 </h4> 
+    </div>  
+<!--Division for break time. -->
+      <div id = 'break' class = 'spinBreak'></div>
+    <div class = 'breakDiv'>
+      <h4 id = 'spanB' class = 'clockFont3'> 05 </h4> 
+    </div>  
+<!--Division for arrows. -->
+    <div id = 'upArr1'></div>
+    <div id = 'downArr1'></div>  
+    <div id = 'upArr2'></div>  
+    <div id = 'downArr2'></div>   
+
+  </body>  
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
